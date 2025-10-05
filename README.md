@@ -5,16 +5,17 @@
 ### Repository Structure
 ```text
 assignment2-minheap/
-├── src/main/java/
-│   ├── algorithms/MinHeap.java
-│   ├── metrics/PerformanceTracker.java
-│   └── cli/BenchmarkRunner.java
-├── src/test/java/
-│   └── algorithms/MinHeapTest.java
+├── src/
+│   ├── main/java/
+│   │   ├── algorithms/MinHeap.java
+│   │   ├── metrics/PerformanceTracker.java
+│   │   └── cli/BenchmarkRunner.java
+│   └── test/java/algorithms/MinHeapTest.java
 ├── docs/
-│   └── analysis-report.pdf
-├── performance-plots/
-│   └── performance_metrics
+│   ├── analysis-report.pdf
+│   ├── performance-plots/
+│   │   ├── performance_plots.pdf
+│   │   └── performance_metrics.csv
 ├── README.md
 └── pom.xml
 ```
